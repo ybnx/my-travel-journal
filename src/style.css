@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #2b283a;
+    --clr-dark: #f55a5a;
+    --clr-light: #918e9b;
+}
+
+body {
+    color: var(--clr-primary);
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    width: 125px;
+    height: 168px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    object-fit: cover;
+    float: left;
+    margin-right: 19px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-dark);
+    color: #fff;
+    gap: 7px;
+    padding: 1.25rem 2rem;
+}
+
+.card--list {
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.25rem 2rem;
+}
+
+.card--item {
+    justify-content: center;
+    column-gap: 1.25rem;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: .1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card--subtitle {
+    display: flex;
+    margin-bottom: 0;
+    gap: .2rem;
+}
+
+.card--title {
+    line-height: 0;
+    margin: 1rem 0 1.5rem;
+}
+
+.card--location {
+    margin-right: 0.75rem;
+    letter-spacing: 0.17em;
+}
+
+.card--icon {
+    color: var(--clr-dark);
+    width: 0.7rem;
+    height: 0.95rem;
+}
+
+.map--info {
+    display: inline;
+    text-decoration: underline;
+    font-size: 10px;
+    color: #918E9B;
+}
+
+.mount--description {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #2B283A;
+}
+
+.world--logo {
+    width: 27px;
+    height: 27px;
+    margin-right: 7px;
+}
+
+
+
+
+
+
+
